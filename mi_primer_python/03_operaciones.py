@@ -1,35 +1,35 @@
-lapices = 7
-cuadernos = 4
+lapices = int(input("Ingrese la cantidad de lápices: "))
+cuadernos = int(input("Ingrese la cantidad de cuadernos: "))
 total = lapices + cuadernos
 print(f'El total es: {total}')
 
-presupuesto = 10000
-compra = 3750
+presupuesto = int(input("Ingrese el presupuesto: "))
+compra = int(input("Ingrese la compra: "))
 sobra = presupuesto - compra
 print(f'El presupuesto que queda es: {sobra}')
 
-precio_entrada = 4000
-cantidad_entrada = 5
+precio_entrada = int(input("Ingrese el precio de la entrada: "))
+cantidad_entrada = int(input("Ingrese la cantidad de entradas: "))
 print(f'el precio total es de: {precio_entrada*cantidad_entrada}') 
 
-objetos = 48
-personas = 6
+objetos = int(input("Ingrese la cantidad de objetos: "))
+personas = int(input("Ingrese la cantidad de personas: "))
 obj_pers = objetos/personas
 print(f'objetos para cada persona: {obj_pers}')
 
-estudiantes = 23
-equipo = 4
+estudiantes = int(input("Ingrese la cantidad de estudiantes: "))
+equipo = int(input("Ingrese la cantidad por equipo: "))
 completos = estudiantes // equipo
 afuera = estudiantes % equipo
 print(f'equipos completos: {completos}')
 print(f'estudiantes sin equipo: {afuera}')
 
-base = 2    
-exponente = 5
-print(f'2 elevado a 5 es: {base**exponente}')
+base = int(input("Ingrese la base: "))
+exponente = int(input("Ingrese el exponente: "))
+print(f'{base} elevado a {exponente} es: {base**exponente}')
 
-nota1 = 6.0
-nota2 = 5.0 
-nota3 = 7.0
+nota1 = float(input("Ingrese la nota 1: "))
+nota2 = float(input("Ingrese la nota 2: "))
+nota3 = float(input("Ingrese la nota 3: "))
 promedio = (nota1 + nota2 + nota3)/ 3
 print(f'el promedio es: {promedio}')
